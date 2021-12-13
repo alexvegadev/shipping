@@ -1,4 +1,4 @@
-CREATE TABLE public.product_stock
+CREATE TABLE IF NOT EXISTS public.product_stock
 (
     deposit character varying(12) COLLATE pg_catalog."default" NOT NULL,
     location character varying(4) COLLATE pg_catalog."default" NOT NULL,

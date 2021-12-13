@@ -22,7 +22,7 @@ public class ProductStock {
     private String productId;
 
     @Id
-    @Column(length=12)
+    @Column(length=11)
     @Pattern(flags = Pattern.Flag.CASE_INSENSITIVE, regexp = "^([a-z]{2,}-(\\d{2,})-(\\d{2,})-(DE|IZ))$", message = BAD_PATTERN_MESSAGE)
     @ApiModelProperty(notes = "La dirección del depósito debe tener un patrón {Area}-{Pasillo}-{Fila}-{Cara} con 2 dígitos para cada parte.")
     private String deposit;
