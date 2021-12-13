@@ -1,4 +1,4 @@
-package org.ml.shipping.testing;
+package org.ml.shipping.dao;
 
 import org.ml.shipping.id.ProductId;
 import org.ml.shipping.entity.ProductStock;

@@ -1,6 +1,6 @@
 package org.ml.shipping.service;
 
-import org.ml.shipping.testing.ProductStockDAO;
+import org.ml.shipping.dao.ProductStockDAO;
 import org.ml.shipping.dto.ItemDTO;
 import org.ml.shipping.id.ProductId;
 import org.ml.shipping.entity.ProductStock;

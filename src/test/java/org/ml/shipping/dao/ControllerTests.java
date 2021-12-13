@@ -1,4 +1,4 @@
-package org.ml.shipping.testing;
+package org.ml.shipping.dao;
 
 import org.junit.After;
 import org.junit.Test;
