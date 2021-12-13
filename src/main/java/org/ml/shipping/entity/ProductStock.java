@@ -3,6 +3,7 @@ package org.ml.shipping.entity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 import org.ml.shipping.id.ProductId;
 
 import javax.persistence.*;
@@ -13,6 +14,7 @@ import static org.ml.shipping.shared.RestConstants.BAD_PATTERN_MESSAGE;
 @Entity
 @Table(name = "product_stock")
 @IdClass(ProductId.class)
+@Data
 @ApiModel(value = "ProductStock", description = "Representación del depósito.")
 public class ProductStock {
 
@@ -36,37 +38,4 @@ public class ProductStock {
     @ApiModelProperty(notes = "Ubicación del depósito")
     private String location;
 
-
-    public String getProductId() {
-        return productId;
-    }
-
-    public void setProductId(String productId) {
-        this.productId = productId;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-
-    public String getDeposit() {
-        return deposit;
-    }
-
-    public void setDeposit(String deposit) {
-        this.deposit = deposit;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
 }
