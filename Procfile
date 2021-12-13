@@ -1,0 +1,1 @@
+web: java -jar target/shipping-0.0.1.jar
