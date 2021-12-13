@@ -1,10 +1,12 @@
+
 # Desafío técnico ML
 
 ## Ejecución del proyecto
 ### Requerimientos:
-Postgres >= 10
-JDK 8
+**Postgres >= 10**
+**JDK >= 8**
 ### Ejecución
+Clonar el repositorio: **git clone https://github.com/alexvegadev/shipping.git
 A través de la consola, usar el comando: **mvn spring-boot:run**
 A través del IDE, ejecutar la clase: **ShippingApplication**
 ## Requerimiento
